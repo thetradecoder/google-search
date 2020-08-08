@@ -1,17 +1,12 @@
 .google-search-container{
-  width:350px;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
   padding:20px;
-  background-color:transparent;
+  width:350px;
+  margin:auto;
 }
-.google-search{
+#googleSearchInput{
   width:280px;
-  padding:5px;
 }
 #googleSearchButton{
-width:50px;
+  width:50px
 }
-
 

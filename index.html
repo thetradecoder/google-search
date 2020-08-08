@@ -8,6 +8,7 @@
     <meta name="description" content = "google search engine">
     <meta name="keywords" content="google_search, google_search_engine, google_search_script">   
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />    
     <link href="./style.css" rel="stylesheet" />  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.1/js/bootstrap.min.js"></script>
@@ -18,10 +19,10 @@
 
     <div class="google-search-container">
       <form id="googleSearch">
-        <div class="btn-group">
-        <input id="searchMe" class="google-search" type="text" placeholder="Google Search" />
-        <button type="submit" class="btn btn-lg btn-primary">Search</button>
-          </div>
+       <div class="btn-group">
+        <input id="googleSearchInput" class="google-search form-control" type="text" placeholder="Google Search" />
+        <button id="googleSearchButton" type="submit" class="btn btn-info"><i class="fa fa-search"></i></button>
+       </div>
       </form>
     </div>
     
